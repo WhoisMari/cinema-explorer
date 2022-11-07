@@ -1,0 +1,66 @@
+.wrap-person-card {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	transition: all 200ms linear;
+	box-shadow: .8px .9px 6px #e2e2e2;
+	text-decoration: none;
+	color: black;
+
+	&:hover {
+		color: black;
+		box-shadow: 1px 8px 20px #a5a5a5;
+	}
+
+	.person-img {
+		display: flex;
+		align-items: center;
+		object-fit: cover;
+		border-radius: 5px 5px 0 0;
+	}
+
+	.person-info {
+		padding: 0.5rem;
+		.name {
+			font-weight: 700;
+		}
+	}
+}
+
+.small-card {
+	width: 200px;
+	margin-right: 20px;
+	.person-img {
+		width: 200px;
+	}
+}
+.default-card {
+	width: 300px;
+
+	.person-img {
+		width: 300px;
+	}
+}
+
+@media (max-width: 1000px) {
+	.wrap-person-card {
+		width: 200px;
+		.person-img { width: 200px; }
+	}
+}
+
+@media (max-width: 800px) {
+	.wrap-person-card {
+		width: 250px;
+		.person-img { width: 250px; }
+	}
+}
+@media (max-width: 550px) {
+	.default-card {
+		width: 100%;
+		.person-img {
+			width: 100%;
+		}
+	}
+}

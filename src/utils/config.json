@@ -1,0 +1,21 @@
+{
+	"api_key": "8b2d6827f98510dfe04dc73a30151f48",
+	"api_url": "https://api.themoviedb.org/3/",
+	"image_api_url": "https://image.tmdb.org/t/p/w500",
+	"language_options": [
+		{"name": "Italiano", "tag": "it"},
+		{"name": "English", "tag": "en"},
+		{"name": "Deutsch", "tag": "de"},
+		{"name": "Nederlands", "tag": "nl"},
+		{"name": "Português", "tag": "pt"},
+		{"name": "Français", "tag": "fr"},
+		{"name": "Español", "tag": "es"},
+		{"name": "عربي", "tag": "ar"},
+		{"name": "日本", "tag": "ja"},
+		{"name": "Русский", "tag": "ru"},
+		{"name": "Polski", "tag": "pl"},
+		{"name": "українська", "tag": "uk"},
+		{"name": "Română", "tag": "ro"},
+		{"name": "Türk", "tag": "tr"}
+	]
+}

@@ -1,0 +1,10 @@
+.dropdown-item.active, .dropdown-item:active {
+	color: black;
+	background-color: transparent;
+}
+.navbar-brand {
+	color: #6366f1;
+	&:hover {
+		color: #6366f1;
+	}
+}

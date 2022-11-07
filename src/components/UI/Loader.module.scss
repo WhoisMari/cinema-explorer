@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Anton');
+$color-primary: #3D314A;
+$color-secondary: #F5F1ED;
+$font: Anton, sans-serif;
+
+.loader {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+    &__text {
+        margin: 5px auto;
+        color: $color-primary;    
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-family: $font;
+    }
+    &__filmstrip {
+        position: relative;
+        width: 56px;
+        height: 70px;
+        background: $color-primary;
+        z-index: -1;
+        &:before, &:after {
+            content: '';
+            position: absolute;
+            height: 120%;
+            border-left: 5px dashed #fff;
+            animation: roll 20ms infinite;
+        }
+        &:before {left: 5px;}
+        &:after {right: 5px;}
+        
+    }
+}
+
+@keyframes roll {
+    0% {top: 0px;}
+    100% {top: -15px;}
+}

@@ -1,0 +1,12 @@
+.providers-container {
+	margin: 10px 0;
+	.wrap-provider {
+		.title {
+			text-transform: capitalize;
+		}
+		.provider {
+			width: 40px;
+			margin-right: 10px;
+		}
+	}
+}
